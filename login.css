@@ -1,0 +1,30 @@
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main form input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+main form button {
+    background-color: #195db0;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+main form button:hover {
+    opacity: 0.5;
+}
